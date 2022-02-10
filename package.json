@@ -1,0 +1,29 @@
+{
+  "name": "git-webpage",
+  "version": "1.0.0",
+  "description": "git-webpage development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArielChuang0616/ArielChuang0616.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArielChuang0616/ArielChuang0616.github.io/issues"
+  },
+  "homepage": "https://github.com/ArielChuang0616/ArielChuang0616.github.io#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "swup": "^2.0.14"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11"
+  },
+  "presets": [
+    "@babel/preset-env"
+  ]
+}

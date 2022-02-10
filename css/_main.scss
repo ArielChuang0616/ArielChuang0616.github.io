@@ -1,0 +1,38 @@
+#mainPhoto {
+    float: left;
+    width: 500px;
+    height: 100%;
+}
+
+#mainName {
+    position: absolute;
+    left: 550px;
+    bottom: 100px;
+}
+
+#mainMenu {
+    font-size: 24px;
+    float: right;
+    position: absolute;
+    right: 10%;
+    top: 50px;
+}
+
+.mainItem{
+    transition: all 0.5s ease-out;
+    color: #d9ccc1;
+}
+    
+.hoveredItem{
+    font-size: 40px;
+    color: inherit;
+}
+
+@keyframes font-larger {
+    from {
+        font-size: inherit;
+    }
+    to {
+        font-size: 40px;
+    }
+}
